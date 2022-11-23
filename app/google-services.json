@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "534830768864",
+    "project_id": "futbol--firebase",
+    "storage_bucket": "futbol--firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534830768864:android:8fa43b20ce7f03a6e26685",
+        "android_client_info": {
+          "package_name": "com.example.futbol_personalsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534830768864-lpnftjnvtvbvi6jc43bclh6ah49qjhmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA45ZyeBNNULtXYa3zixnWX_EIVp9sP8bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534830768864-lpnftjnvtvbvi6jc43bclh6ah49qjhmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

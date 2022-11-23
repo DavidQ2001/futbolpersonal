@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Equipos de FUTBOL" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="codigo" />
+
+    <EditText
+        android:id="@+id/etcodigo"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+       android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="AA2010" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="nombre" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Nacional" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="ciudad" />
+
+    <EditText
+        android:id="@+id/etciudad"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Medellin-Colombia" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="categoria" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbprofesional"
+            android:checked="true"
+
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Profesional" />
+
+        <RadioButton
+            android:id="@+id/rbascenso"
+
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Ascenso" />
+
+        <RadioButton
+            android:id="@+id/rbaficionado"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Aficionado" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbactivo"
+        android:layout_width="match_parent"
+       android:enabled="true"
+        android:layout_marginRight="130dp"
+        android:layout_height="wrap_content"
+        android:text="Activo" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/btadicionar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="Adicionar"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="Adicionar" />
+
+
+
+    <Button
+        android:id="@+id/btbuscar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Buscar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/btmodificar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="Modificar" />
+
+
+
+        <Button
+            android:id="@+id/btanular"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Anular" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btcancelar"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+
+</LinearLayout>
